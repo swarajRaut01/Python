@@ -1,0 +1,5 @@
+F=open('D:/swaraj/myfile.txt','r')
+print('the file contents are:')
+str=F.read()
+print(str)
+F.close()
